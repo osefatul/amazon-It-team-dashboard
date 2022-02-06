@@ -17,4 +17,4 @@ Mgr: In this component the onsite and offiste time of the manager will be set. a
 Time: This important component among all. Here we have shift hours, days and etc. We also used counter useState hook here as well. because we want to update this hook based on the counter and time hours ans it wont work if we dont use counter. inside useEffect we used Morning shift and night shift. morning shift starts from (7 to 17), if it is wednesday we will dispatch the wednesday shift techs, where this is used in the Team component where it will be show "onsite". and if it is night shift and the day is wednesday the wednesday night shfit techs will be dispatched. That reducers will also be used in the Team component.
 We used another useEffect to deactive the online techs based on the window where shifts change.
 
-[https://uidesigndaily.com/](https://uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
+I deleted Team images directory.
