@@ -15,7 +15,7 @@ const CountDownTimer = ({ hoursMinSecs }) => {
   const [counter, setCounter] = useState(0);
 
   useEffect(() => {
-    if (parseInt(hours) > 7 && parseInt(hours) < 19) {
+    if (parseInt(hours) > 7 && parseInt(hours) < 17) {
       setTimer(true);
     } else {
       setTimer(false);
