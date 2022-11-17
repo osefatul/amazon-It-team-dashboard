@@ -1,5 +1,8 @@
 ## Amazon IT Active Team Members Board
 
+### Intro
+Amazon IT dashboard is a web application I developed when working in the amazon IT dept. This is an automated way of changing schedules for day and shfit staff.
+
 We used four reducers with two initial states
 
 - active: is an empty array or initial state of a single available member.
